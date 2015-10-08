@@ -6,9 +6,10 @@
 
 # RANDOMIZE THE GROUPS - SHUFFLE THE ARRAY BEFORE ASSIGNING GROUPS.
 
-
-
 # SET VARIABLES
+
+# APOLOGIES - NOT THE BEST CODE - BUT IT WORKS
+# NEEDS LOTS OF REFACTORING
 
 students = %w(Iwona Craig GraemeK Kathryn Kieran Peter Ere Chae Zsolt Simon Syed Neil GraemeS Keith Nevin)
 # puts students
@@ -83,7 +84,7 @@ else
         end
 
       when "n"
-        intro
+        puts "Thanks - have a good day"
     else
       puts "please select (y) or (n)"
       puts "ok - Have a nice day"
